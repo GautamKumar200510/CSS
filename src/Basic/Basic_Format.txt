@@ -1,0 +1,18 @@
+# CSS Syntax
+
+selector {
+    property: value;
+}
+
+
+# Example
+
+h1 {
+    color: red;
+    font-size: 30px;
+}
+
+
+Selector → Which element to style (h1)
+Property → What to change (color)
+Value → New value (red)

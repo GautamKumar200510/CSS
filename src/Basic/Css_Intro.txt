@@ -1,0 +1,22 @@
+1. What is CSS?
+
+->CSS (Cascading Style Sheets) ek stylesheet language hai jo HTML elements ko style karne ke liye use hoti hai.
+
+# CSS ki help se hum:
+
+->Colors add kar sakte hain
+->Fonts change kar sakte hain
+->Size set kar sakte hain
+->Layout bana sakte hain
+->Animation add kar sakte hain
+->Responsive website bana sakte hain
+
+
+📌 Quick Revision
+CSS = Cascading Style Sheets
+CSS ka use HTML ko attractive banane ke liye hota hai.
+CSS Syntax = Selector + Property + Value
+CSS ke 3 types hote hain: Inline, Internal, External.
+External CSS sabse professional aur recommended approach hai.
+Comments /* ... */ se likhte hain.
+HTML aur CSS ko <link rel="stylesheet" href="style.css"> se connect karte hain.
