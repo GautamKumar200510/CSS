@@ -1,0 +1,7 @@
+1. Color Name
+
+Uses predefined color names.
+
+h1{
+    color: red;
+}
