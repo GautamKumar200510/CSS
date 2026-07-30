@@ -1,0 +1,42 @@
+button:hover {
+    background-color:black;
+    color:white;
+
+
+}
+
+h3:hover {
+    text-decoration: underline;
+}
+
+button:active {
+    background-color: rgb(123, 14, 14);
+}
+
+
+p:active{
+    font-weight: bold;
+    color: rgb(84, 49, 147);
+    
+}
+
+input[type="radio"]:checked + label{
+    color: rgb(233, 217, 93);
+    font-weight: bold;
+}
+
+.post:nth-of-type(){
+    background-color: rgb(201, 201, 22);
+}
+
+h1::first-letter{
+    color:chocolate
+}
+
+p::first-line{
+    color:rgb(13, 192, 135)
+}
+
+p::selection{
+    background-color: darksalmon;
+}
