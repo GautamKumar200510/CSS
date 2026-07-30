@@ -1,0 +1,96 @@
+/* 1. Universal Selector (*)
+
+Selects all elements */
+
+* {
+    font-family:'Courier New';
+}
+
+
+/* 2. Element Selector
+
+Selects elements by tag name. */
+
+
+h3 {
+    color: rgb(210, 120, 120);
+    
+}
+
+h1{
+    color: #b92b27;
+}
+
+
+/* 4. ID Selector (#)
+
+#myId{
+    property: value;
+
+
+Selects an element with a specific id. */
+
+#login {
+    background-color: white;
+}
+
+#signup {
+    background-color: #b92b27;
+    color: white;
+}
+
+
+/* 3. Class Selector (.)
+
+Selects elements with the same class or based on the their class attribute .
+      .myClass {
+        property: value;
+      } */
+
+      .upvote {
+        background-color: #d1ef6f;
+        color: black;
+      }
+
+/* 6. Descendant Selector (space)
+
+Selects elements inside another element.
+
+div p{
+    color: blue;
+}
+         */
+
+
+    /* p a { */
+    .post a{
+        color: rgb(100, 3, 95);
+        text-decoration: none;
+        background-color: yellow;
+    }
+
+    nav ul li a{
+        color: rgb(125, 88, 4);
+        
+    }
+
+/* 10. Attribute Selector ([])
+
+Selects elements based on an attribute.
+
+input[type="text"]{
+    border: 2px solid blue;
+} */
+
+input[type="text"]{
+    color:rgb(29, 3, 145);
+}
+
+input[type="password"]{
+    color:rgb(207, 124, 21);
+}
+
+input[type="submit"]{
+   
+    background-color: rgb(194, 192, 192);
+}
