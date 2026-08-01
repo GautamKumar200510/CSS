@@ -1,0 +1,45 @@
+
+/*
+1. Alpha
+
+Alpha controls the transparency of a color only.
+Value ranges from 0 to 1.
+
+Example (rgba)
+.box{
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+Or
+
+.box{
+    background-color: hsla(0, 100%, 50%, 0.5);
+} 
+ */
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+
+/*
+2. Opacity
+
+Opacity controls the transparency of the entire element (text, background, border, image).
+
+Value ranges from 0 to 1.
+
+Example
+.box{
+    opacity: 0.5;
+}
+
+ */
+
+ #opacity{
+    background-color: #fa511f;
+    /* opacity: 0; */
+    opacity: 0.5;
+ }
