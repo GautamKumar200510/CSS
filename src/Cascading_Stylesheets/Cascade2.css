@@ -44,3 +44,10 @@ p::selection{
 /* h1{
     color:rgb(0, 255, 89)
 } */
+ 
+/* 
+!important is used to override the normal cascading rules of CSS. It gives a CSS property the highest priority, ensuring that it takes precedence over other conflicting styles, regardless of specificity or source order. When a property is marked with !important, it will be applied even if there are other styles that would normally override it.
+ */
+h2{
+    background-color: yellow !important;
+}
