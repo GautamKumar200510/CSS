@@ -1,0 +1,26 @@
+/* h2{
+    display: inline;
+    background-color: yellow;
+}
+
+span{
+    display: rgb(172, 147, 147);
+    background-color: green;
+} */
+
+/* span{
+  
+    background-color: yellow;
+    border: 2px solid black;
+    
+} */
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    border: 2px solid black;
+    margin: 10px;
+    display: inline-block;
+  
+}

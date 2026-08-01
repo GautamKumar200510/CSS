@@ -1,0 +1,120 @@
+/* 
+1. HEIGHT PROPERTY
+
+The height property is used to set the height of an element.
+
+Syntax
+selector{
+    height: value;
+} */
+
+div{
+    height: 100px;
+}
+    
+
+/* 
+2. WIDTH PROPERTY
+
+The width property is used to set the width of an element.
+
+Syntax
+selector{
+    width: value;
+} */
+
+div{
+    width: 750px;
+    background-color: pink;
+}
+
+/* 
+3. BORDER PROPERTY
+
+The line around the padding and content.
+
+border: 2px solid black; 
+*/
+
+div{
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(3, 100, 29);
+}
+
+h1{
+    color: rgb(97, 39, 5);
+    border: 2px solid black;
+   border-style: dashed;
+   border-color: rgb(3, 100, 29);
+
+}
+
+/* 
+# BORDER SIDES
+
+1. border-top
+
+Applies border to the top side.
+
+.box{
+    border-top: 2px solid red;
+}
+2. border-right
+
+Applies border to the right side.
+
+.box{
+    border-right: 2px solid blue;
+}
+3. border-bottom
+
+Applies border to the bottom side.
+
+.box{
+    border-bottom: 2px solid green;
+}
+4. border-left
+
+Applies border to the left side.
+
+.box{
+    border-left: 2px solid orange;
+} 
+    */
+
+div{
+    border-top: 5px solid red;
+    border-right: 5px solid blue;
+    border-bottom: 5px solid green;
+    border-left: 5px solid orange;
+}
+
+/* 
+
+# BORDER RADIUS
+
+Different Values
+1. Same Radius for All Corners
+border-radius: 10px;
+
+2. Top-Left | Top-Right | Bottom-Right | Bottom-Left
+border-radius: 10px 20px 30px 40px;
+
+3. Opposite Corners
+border-radius: 10px 20px;
+
+4. Circle
+.circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+*/
+
+div{
+    border-radius: 10px 20px 30px 40px;
+    /* border-radius: 50%; */
+
+}
+

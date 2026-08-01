@@ -1,0 +1,35 @@
+/* 1. PADDING
+
+Space inside the border, around the content.
+
+padding: 20px; */
+
+div{
+    padding: 20px;
+    border: 2px solid black;
+}
+
+/* 
+2. MARGIN 
+
+Space outside the border, separating elements.
+
+margin: 20px;
+ */
+
+ button{
+    margin: 50px;
+    border: 2px solid red;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+ }
+
+ div{
+    margin: 20px;
+    margin-top: 25px;
+    margin:1px 2px;
+    margin-bottom: 10px;
+    border: 2px solid rgb(187, 25, 25);
+    padding: 20px;
+ }

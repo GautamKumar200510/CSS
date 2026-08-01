@@ -1,0 +1,25 @@
+#outer{
+     height: 20px;
+        width: 150px;
+        border: 2px solid black;
+}
+
+#inner{
+    height: 50px;
+    width: 50px;
+    background-color: pink;
+    border: 2px solid yellow;
+    font-size: 0.9em;
+    padding: 1em;
+    margin: 1em;
+}
+
+button{
+    font-size:25px;
+    border-radius: 25px;
+    background-color: rgb(238, 255, 0);
+    margin: 10px;
+    padding-right: 20px;
+    border: 5px solid green;
+    padding-left: 3px;
+}

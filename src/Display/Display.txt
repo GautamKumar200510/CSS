@@ -1,0 +1,61 @@
+# DISPLAY 
+
+1. display: block
+
+Takes the full width and starts on a new line.
+
+div{
+    display: block;
+}
+
+Examples: <div>, <p>, <h1>
+
+2. display: inline
+
+Takes only required width and does not start on a new line.
+
+span{
+    display: inline;
+}
+
+Examples: <span>, <a>, <b>
+
+3. display: inline-block
+
+Behaves like inline, but width & height can be set.
+
+button{
+    display: inline-block;
+}
+4. display: none
+
+Hides the element completely.
+
+div{
+    display: none;
+}
+5. display: flex
+
+Makes the element a flex container for flexible layouts.
+
+.container{
+    display: flex;
+}
+6. display: grid
+
+Makes the element a grid container.
+
+.container{
+    display: grid;
+}
+
+# Inline vs Block Elements (Short Notes)
+
+
+Inline Element	                                             Block Element
+                                     
+Takes only required width.	                            Takes full available width.
+Does not start on a new line.	                        Always starts on a new line.
+width and height usually do not work.	                width and height work.
+Used for small content.	                                Used for sections/layouts.
+Examples: <span>, <a>, <b>                          	Examples: <div>, <p>, <h1>
