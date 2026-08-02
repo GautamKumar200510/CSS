@@ -117,4 +117,12 @@ div{
     /* border-radius: 50%; */
 
 }
+/* 
+The box-shadow property is used to add a shadow around an element.
 
+Syntax
+box-shadow: x-offset y-offset blur-radius spread-radius color;
+*/
+div{
+    box-shadow: 50px 20px 1px grey;
+}
