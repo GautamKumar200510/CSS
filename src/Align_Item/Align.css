@@ -1,0 +1,37 @@
+#container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 400px;
+    width: 1000px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /* align-items: flex-end; */
+    margin: 50px;
+    /* flex-wrap: wrap; */
+    background-color: #f2f54b;
+    /* align-content: center; */
+    /* align-content: flex-start; */
+
+
+    
+}
+
+#org{
+    align-self: flex-start;
+}
+
+h1{
+    text-align: center;
+    
+}
+
+#container div{
+    height: 50px;
+    width: 350px;
+    background-color: #494947;
+    text-align: center;
+    font-size: 1.5rem;
+}
