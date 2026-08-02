@@ -1,0 +1,87 @@
+/* 
+The transform property is used to move, rotate, resize, or skew an element.
+
+1. rotate()
+
+Rotates an element by a specified angle.
+
+Example
+.box{
+    transform: rotate(45deg);
+} 
+    */
+
+    section{
+        margin-top: 100px;
+    }
+    div{
+        width: 200px;
+        height: 50px;
+        background-color: #87eb5d;
+        text-align: center;
+        margin: 10px;
+        border: 2px solid black;
+    }
+
+    div:nth-of-type(2n){
+        background-color: #34aac5;
+    }
+
+    div:nth-of-type(3n){
+        background-color: #f2f54b;
+    }
+    #one{
+        transform: rotate(45deg);
+    }
+
+    /* 
+    2. scale()
+
+Increases or decreases the size of an element.
+
+Example
+.box{
+    transform: scale(1.5);
+}
+1 → Original size
+>1 → Bigger
+<1 → Smaller
+    */
+
+    #two{
+        transform: scale(1.5);
+    }
+
+/* 
+3. translate()
+
+Moves an element from its current position.
+
+Example
+.box{
+    transform: translate(50px, 20px);
+}
+First value → X-axis
+Second value → Y-axis
+*/
+
+    #three{
+        transform: translatex(-50px);
+    }
+
+/* 
+    4. skew()
+
+Tilts an element along the X and/or Y axis.
+
+Example
+.box{
+    transform: skew(20deg);
+}
+    */
+    #three{
+        transform: skew(50deg);
+    }
+    #four{
+        transform: skew(-900deg);
+    }
