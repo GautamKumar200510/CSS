@@ -1,0 +1,49 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: #f2f54b;
+    text-align: center;
+    border: 2px solid black;
+    margin: 20px;
+    display: inline-block;
+}
+
+/* 
+1. position: static (Default)
+
+Element follows the normal document flow.
+
+.box{
+    position: static;
+}
+
+✔ Default position.
+*/
+
+#static{
+    background-color: #87eb5d;
+    position: static;
+    top: 50px;
+    left: 50px;
+}
+
+/* 
+2. position: relative
+
+Moves the element relative to its original position.
+
+.box{
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+
+✔ Original space is still reserved.
+*/
+
+#relative{
+    background-color: #34aac5;
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
