@@ -1,0 +1,90 @@
+#container {
+    height: 400px;
+    width: 800px;
+    background-color: #868683;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    /*flex-direction: column-reverse;
+    justify-content: space-between;
+    justify-content: space-around; */
+}
+
+h1{
+    text-align: center;
+    
+}
+
+#container div{
+    height: 30px;
+    width: 150px;
+    background-color: #f2f54b;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+/* 
+1. flex-direction
+
+Sets the direction of flex items.
+
+flex-direction: row;
+
+Values:
+
+row (Default)
+row-reverse
+column
+column-reverse
+*/
+
+/* #container{
+    flex-direction: row;
+    flex-direction: column-reverse;
+    flex-direction: row-reverse;
+
+} */
+
+/* 
+2. justify-content
+
+Aligns items on the main axis (horizontal by default).
+
+justify-content: center;
+
+Values:
+
+flex-start
+center
+flex-end
+space-between
+space-around
+space-evenly
+*/
+/* 
+#container{
+    justify-content: center;
+     justify-content: flex-start;
+    justify-content: flex-end; 
+    
+} */
+
+/* 
+4. flex-wrap
+
+Controls whether items wrap to the next line.
+
+flex-wrap: wrap;
+
+Values:
+
+nowrap (Default)
+wrap
+wrap-reverse
+*/
+
+#container{
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
+}
