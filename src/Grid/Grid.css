@@ -19,3 +19,16 @@
     border: 2px solid black;
     text-align: center;
 }
+
+.one{
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+}
+
+.two{
+    /* grid-row-start: 1;
+    grid-row-end: 3; */
+
+    grid-row:1/span 3;
+}
